@@ -54,7 +54,7 @@ To build your own firmware you need a GNU/Linux, BSD or macOS system (case sensi
   - For more details, please see [Build system setup](https://openwrt.org/docs/guide-developer/build-system/install-buildsystem) documentation.
 
   ### Quickstart
-  1. Run `git clone --depth=1 https://github.com/nien0202/immortalwrt24.10.git` to clone the source code.
+  1. Run `git clone --depth=1 https://github.com/nien0202/immortalwrt-24.10.git` to clone the source code.
   2. Run `cd immortalwrt-24.10` to enter source directory.
   3. Run `./scripts/feeds update -a` to obtain all the latest package definitions defined in feeds.conf / feeds.conf.default
   4. Run `./scripts/feeds install -a` to install symlinks for all obtained packages into package/feeds/
